@@ -6,20 +6,22 @@ body {
 }
 
 header {
-    background-color: #029e6b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
+    background-color: #029e6b;
 }
 
 header img {
     width: 200px;
     height: 100px;
-    margin: 20px;
+    margin-right: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav ul {
@@ -27,7 +29,6 @@ header nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
 }
 
 header nav li {
@@ -64,10 +65,13 @@ h2 {
     overflow: hidden;
 }
 
+
+
 .banner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: brightness(0.5);
 }
 
 .banner h1 {
@@ -78,6 +82,7 @@ h2 {
     color: #fff;
     font-size: 36px;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .banner p {
@@ -88,6 +93,7 @@ h2 {
     color: #fff;
     font-size: 24px;
     text-align: center;
+    padding-top: 20px;
 }
 
 .resumo {
@@ -245,6 +251,7 @@ form {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
+    padding: 20px;
 }
 
 form label {
