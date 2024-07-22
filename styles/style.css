@@ -360,6 +360,7 @@ form button[type="submit"]:hover {
     background-color: #f0f0f0;
     padding: 20px;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .redes-sociais ul {
@@ -385,7 +386,7 @@ form button[type="submit"]:hover {
 
 footer {
     background-color: #029e6b;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     position: fixed;
     bottom: 0;
