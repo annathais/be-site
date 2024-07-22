@@ -214,30 +214,39 @@ h2 {
     background-color: #f0f0f0;
     padding: 20px;
     margin-top: 20px;
+    width: 48%;
 }
 
 .identificacao-categorizacao {
     background-color: #f0f0f0;
     padding: 20px;
     margin-top: 20px;
+    width: 48%;
 }
 
 .dashboard-personalizavel {
     background-color: #f0f0f0;
     padding: 20px;
     margin-top: 20px;
+    width: 48%;
 }
 
 .ferramentas-analise-avancada {
     background-color: #f0f0f0;
     padding: 20px;
     margin-top: 20px;
+    width: 48%;
 }
 
 .compartilhamento-experiencias {
     background-color: #f0f0f0;
     padding: 20px;
     margin-top: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
 }
 
 .projeto-fase-atual {
