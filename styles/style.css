@@ -210,32 +210,67 @@ h2 {
     margin-bottom: 10px;
 }
 
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    width: 45%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+  
+.service:last-child {
+    margin-right: 0;
+}
+  
+.service h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+ 
+.service h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
 .mapeamento-atores {
     background-color: #f0f0f0;
     padding: 20px;
     margin-top: 20px;
-    width: 48%;
+    width: 45%;
 }
 
 .identificacao-categorizacao {
     background-color: #f0f0f0;
     padding: 20px;
     margin-top: 20px;
-    width: 48%;
+    width: 45%;
 }
 
 .dashboard-personalizavel {
     background-color: #f0f0f0;
     padding: 20px;
     margin-top: 20px;
-    width: 48%;
+    width: 45%;
 }
 
 .ferramentas-analise-avancada {
     background-color: #f0f0f0;
     padding: 20px;
     margin-top: 20px;
-    width: 48%;
+    width: 45%;
 }
 
 .compartilhamento-experiencias {
@@ -244,10 +279,11 @@ h2 {
     margin-top: 20px;
 }
 
-.services {
-    display: flex;
-    justify-content: space-between;
-}
+@media (max-width: 768px) {
+    .services {
+      width: 100%;
+    }
+  }
 
 .projeto-fase-atual {
     background-color: #f0f0f0;
