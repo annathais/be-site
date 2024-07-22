@@ -245,45 +245,35 @@ h2 {
     margin-bottom: 20px;
 }
 
-.mapeamento-atores {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin-top: 20px;
-    width: 45%;
-}
-
-.identificacao-categorizacao {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin-top: 20px;
-    width: 45%;
-}
-
-.dashboard-personalizavel {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin-top: 20px;
-    width: 45%;
-}
-
-.ferramentas-analise-avancada {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin-top: 20px;
-    width: 45%;
-}
-
 .compartilhamento-experiencias {
     background-color: #f0f0f0;
     padding: 20px;
     margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.compartilhamento-experiencias h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+ 
+.compartilhamento-experiencias h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.compartilhamento-experiencias p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
     .services {
       width: 100%;
     }
-  }
+}
 
 .projeto-fase-atual {
     background-color: #f0f0f0;
